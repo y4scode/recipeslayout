@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    text-align: center;
+    color: #EBF1FB;
+    font-family: 'Spectral', serif;
+    background-image: url(./assests/recipes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 120px;
+    font-family: 'Beth Ellen', cursive;
+}
+
+h1 span {
+    color: #5EEAD4;
+}
+
+p {
+    padding-top: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 72px;
+}
+
+a {
+    padding: 16px 32px;
+    color: #EBF1FB;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+a:hover,
+.sec-button {
+    text-decoration: none;
+    color: #0B0C0E;
+    background: #5EEAD4;
+    border-radius: 8px;
+}
